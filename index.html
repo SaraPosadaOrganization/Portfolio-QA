@@ -110,17 +110,17 @@ Sara Posada
     <i class="fa fa-envelope"></i> Contact
   </h2>
   <form id="contactForm" onsubmit="return enviarFormulario(event)">
-    <input id="nombre" type="text" placeholder="Name" />
-    <input id="email" type="email" placeholder="Email" />
-    <select id="asunto">
-      <option value="">---</option>
-      <option value="info">Información</option>
-      <option value="job">Oferta Trabajo</option>
-      <option value="other">Otro</option>
+    <input id="nombre" type="text" placeholder="Name or Company Name" minlength="3"/>
+    <input id="email" type="email" placeholder="Email" required />
+    <select id="subject" name="subject" required>
+      <option value="">Subject</option>
+      <option value="info">General information</option>
+      <option value="job">Job offer</option>
+      <option value="other">Other</option>
     </select>
-    <textarea id="mensaje" rows="4" placeholder="Write your text"></textarea>
+    <textarea id="mensaje" maxlength="500" placeholder="Enter your message" required></textarea>
     <button id="enviar" type="submit">
-      <i class="fa fa-paper-plane"></i> Send
+      <i class="fa fa-paper-plane"></i> Submit
     </button>
   </form>
   <p id="formMessage"></p>
