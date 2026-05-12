@@ -57,12 +57,12 @@ p {
 }
 
 a {
-  color: #02524e;
+  color: black;
   text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: 
 }
 
 section {
@@ -72,7 +72,7 @@ section {
 h2 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color: #34495e;
+  color: rgb(42, 40, 40);
 }
 
 /* FORMULARIO */
@@ -95,8 +95,8 @@ select {
 button {
   width: 100%;
   padding: 1rem;
-  background-color: #02463a;
-  color: white;
+  background-color: rgb(98, 4, 40);
+  color:  rgb(156, 143, 143);
   border: none;
   border-radius: 0.5rem;
   font-size: 1rem;
@@ -114,7 +114,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   table-layout: fixed; /* CLAVE */
-  font-family: Arial, sans-serif;
+  font-family: 'Space Grotesk', sans-serif;;
 }
 
 th, td {
