@@ -115,17 +115,29 @@ Sara Posada
     type="text" 
     placeholder="Name" 
     />
-    <input id="email" type="email" placeholder="Email" required />
-    <select id="subject" name="subject" required>
+    <input 
+    id="email" 
+    type="email" 
+    placeholder="Email" 
+    required />
+    <select id="subject" required>
       <option value="">Subject</option>
       <option value="info">General information</option>
       <option value="job">Job offer</option>
       <option value="other">Other</option>
     </select>
-    <textarea id="mensaje" maxlength="500" placeholder="Enter your message" required></textarea>
+
+    <textarea 
+    id="mensaje"
+    maxlength="500" 
+    placeholder="Enter your message" 
+    required
+    ></textarea>
+
     <button id="enviar" type="submit">
       <i class="fa fa-paper-plane"></i> Submit
     </button>
+  
   </form>
   <p id="formMessage"></p>
 </section>
