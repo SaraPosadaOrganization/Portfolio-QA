@@ -26,4 +26,4 @@ SELECT * FROM formsaraposada WHERE email LIKE '%gmail%' AND subject ='job';
 SELECT * FROM formsaraposada WHERE age > 30 AND message LIKE '%test%';
 
 -- Show the data sorted by email from a to z
-SELECT * FROM formsaraposada ORDER BY email ASC limit 100;
+SELECT * FROM formsaraposada ORDER BY email ASC;
