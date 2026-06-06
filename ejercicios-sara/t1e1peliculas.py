@@ -9,7 +9,7 @@ tiene_premios = True
 # Mostrar la informacion
 print("Título:", titulo)
 print("Director:", director)
-print("Ano de lanzamiento:", ano_lanzamiento)
+print("Año de lanzamiento:", ano_lanzamiento)
 print("Género:", genero)
 print("Duración (min):", duracion_minutos)
 print("Premios:", tiene_premios)
